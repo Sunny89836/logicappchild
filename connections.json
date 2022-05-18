@@ -1,0 +1,32 @@
+{
+  "serviceProviderConnections": {
+    "AzureBlob": {
+      "parameterValues": {
+        "connectionString": "@appsetting('AzureBlob_connectionString')"
+      },
+      "serviceProvider": {
+        "id": "/serviceProviders/AzureBlob"
+      },
+      "displayName": "storcon"
+    },
+    "AzureBlob-2": {
+      "parameterValues": {
+        "connectionString": "@appsetting('AzureBlob_12_connectionString')"
+      },
+      "serviceProvider": {
+        "id": "/serviceProviders/AzureBlob"
+      },
+      "displayName": "test"
+    },
+    "AzureBlob-3": {
+      "parameterValues": {
+        "connectionString": "@appsetting('AzureBlob_13_connectionString')"
+      },
+      "serviceProvider": {
+        "id": "/serviceProviders/AzureBlob"
+      },
+      "displayName": "test1"
+    }
+  },
+  "managedApiConnections": {}
+}

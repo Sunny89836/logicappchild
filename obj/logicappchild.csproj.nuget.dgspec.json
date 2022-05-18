@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\supahlaj\\Downloads\\logicappchild\\logicappchild.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\supahlaj\\Downloads\\logicappchild\\logicappchild.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\supahlaj\\Downloads\\logicappchild\\logicappchild.csproj",
+        "projectName": "logicappchild",
+        "projectPath": "c:\\Users\\supahlaj\\Downloads\\logicappchild\\logicappchild.csproj",
+        "packagesPath": "C:\\Users\\supahlaj\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\supahlaj\\Downloads\\logicappchild\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\supahlaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "targetAlias": "net461",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "targetAlias": "net461",
+          "dependencies": {
+            "Microsoft.NET.Sdk.Functions": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
